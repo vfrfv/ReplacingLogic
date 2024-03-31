@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplacingLogic", "ReplacingLogic\ReplacingLogic.csproj", "{2BC6BBB6-1E32-40B3-8F8B-D8E6FC23D814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BC6BBB6-1E32-40B3-8F8B-D8E6FC23D814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC6BBB6-1E32-40B3-8F8B-D8E6FC23D814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC6BBB6-1E32-40B3-8F8B-D8E6FC23D814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC6BBB6-1E32-40B3-8F8B-D8E6FC23D814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9316960-0CFB-42AB-A753-7B438DC39349}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+C:\проэкты\ReplacingLogic\ReplacingLogic\bin\Debug\ReplacingLogic.exe.config
+C:\проэкты\ReplacingLogic\ReplacingLogic\bin\Debug\ReplacingLogic.exe
+C:\проэкты\ReplacingLogic\ReplacingLogic\bin\Debug\ReplacingLogic.pdb
+C:\проэкты\ReplacingLogic\ReplacingLogic\obj\Debug\ReplacingLogic.csproj.AssemblyReference.cache
+C:\проэкты\ReplacingLogic\ReplacingLogic\obj\Debug\ReplacingLogic.csproj.CoreCompileInputs.cache
+C:\проэкты\ReplacingLogic\ReplacingLogic\obj\Debug\ReplacingLogic.exe
+C:\проэкты\ReplacingLogic\ReplacingLogic\obj\Debug\ReplacingLogic.pdb

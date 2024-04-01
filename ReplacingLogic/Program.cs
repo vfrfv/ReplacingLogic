@@ -18,6 +18,7 @@ namespace IMJunior
 
     class Shop
     {
+        private OrderForm _form;
         private List<IPaymentSystem> _paymentSystems;
 
         public Shop(List<IPaymentSystem> paymentSystems)
@@ -27,16 +28,18 @@ namespace IMJunior
 
         public void Run()
         {
-            var orderForm = new OrderForm(_paymentSystems.Select(system => system.Name).ToList());
-            var systemId = orderForm.ShowForm();
+            _form = new OrderForm(_paymentSystems.Select(system => system.Name).ToList());
+            string systemId = _form.ShowForm();
 
-            foreach (var paymentSistem in _paymentSystems)
+            foreach (var paymentSystem in _paymentSystems)
             {
-                if (paymentSistem.Name.Equals(systemId, StringComparison.OrdinalIgnoreCase))
+                if (paymentSystem.Name.Equals(systemId, StringComparison.OrdinalIgnoreCase))
                 {
-                    paymentSistem.AcceptPayment();
+                    paymentSystem.AcceptPayment();
                 }
             }
+
+            _form.DisplayMessage("Некорректный ввод");
         }
     }
 
@@ -55,6 +58,11 @@ namespace IMJunior
             Console.WriteLine("Какое системой вы хотите совершить оплату?");
 
             return Console.ReadLine();
+        }
+
+        public void DisplayMessage(string message)
+        {
+            Console.WriteLine(message);
         }
     }
 
